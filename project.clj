@@ -1,4 +1,4 @@
-(defproject kg-disinfo "0.1.0-SNAPSHOT"
+(defproject kg-disinfo "0.1.1-SNAPSHOT"
   :description "Disinformation estimation through spreading activation"
   :url "http://172.16.175.101/rdenaux/kg-disinfo"
   :license {:name "Eclipse Public License"
