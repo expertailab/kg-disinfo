@@ -1,7 +1,7 @@
 (require 'cemerick.pomegranate.aether)
 (cemerick.pomegranate.aether/register-wagon-factory!
   "http" #(org.apache.maven.wagon.providers.http.HttpWagon.))
-(defproject net.expertsystem.lab/kg-disinfo "0.2.0-SNAPSHOT"
+(defproject net.expertsystem.lab/kg-disinfo "0.2.0"
   :description "Disinformation estimation through spreading activation"
   :url "http://172.16.175.101/rdenaux/kg-disinfo"
   :license {:name "Eclipse Public License"

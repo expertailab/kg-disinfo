@@ -1,6 +1,6 @@
 # kg-disinfo
 
-Knowledge Graph-based (lack of) credibility estimation.
+Knowledge Graph-based (dis)credibility estimation.
 
 Given a KG and a few seed nodes which *contain (lack of) credibility scores* (represented as a numerical value), 
 the system uses a metric propagation algorithm to estimate the (lack of) credibility of neighbouring nodes (for which no previous score is available). 
@@ -10,7 +10,8 @@ you to define which relations should propagate more or less of the disinformatio
 
 ## Installation
 
-Not release yet.
+Check the [releases](https://github.com/rdenaux/kg-disinfo/releases) and download the standalone jar.
+Otherwise, you need to build it using leiningen as discussed below.
 
 ## Set up
 The project is built using [Leiningen](https://leiningen.org/), which is like maven, but for [Clojure](https://clojure.org/).
@@ -20,15 +21,15 @@ The project is built using [Leiningen](https://leiningen.org/), which is like ma
 ### With standalone jar
 If you already have a standalone jar for this project you can call
 
-    $ java -jar kg-disinfo-0.1.0-standalone.jar [args]
+    $ java -jar kg-disinfo-0.2.0-standalone.jar [args]
     
 e.g. 
 
-    $ java -jar kg-disinfo-0.1.0-standalone.jar --help 
+    $ java -jar kg-disinfo-0.2.0-standalone.jar --help 
     
 will print the command line arguments. Similarly
 
-    $ java -jar kg-disinfo-0.1.0-standalone.jar --graph resources/dante-g-small.json --injections resources/dante-g-small-injection.json
+    $ java -jar kg-disinfo-0.2.0-standalone.jar --graph resources/dante-g-small.json --injections resources/dante-g-small-injection.json
     
 will:
   * read a graph from the specified path
@@ -111,12 +112,12 @@ This is a json file with a single object with property `injection`. The `injecti
 
 ## Bugs
 
- * No tests
+ * Not thoroughly tested
 
 ## Acknowledgements
 
 Originally developed as part of the [DANTE](https://www.h2020-dante.eu/) project and refined as part of the [Co-inform](https://coinform.eu) project.
 
 ## License
-
+Eclipse Public License 1.0
 Copyright © 2019 Expert System Iberia
