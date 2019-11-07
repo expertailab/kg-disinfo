@@ -3,7 +3,7 @@
   "http" #(org.apache.maven.wagon.providers.http.HttpWagon.))
 (defproject net.expertsystem.lab/kg-disinfo "0.2.0"
   :description "Disinformation estimation through spreading activation"
-  :url "http://172.16.175.101/rdenaux/kg-disinfo"
+  :url "https://github.com/rdenaux/kg-disinfo"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
