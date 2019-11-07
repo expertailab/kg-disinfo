@@ -1,0 +1,409 @@
+{
+  "edges" : [ {
+    "src-node" : "digitalId_23585",
+    "tgt-node" : "person_23578",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner-1"
+    }
+  }, {
+    "src-node" : "digitalId_23585",
+    "tgt-node" : "person_23582",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner-1"
+    }
+  }, {
+    "src-node" : "digitalId_23585",
+    "tgt-node" : "resource_23592",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "digitalId_23584",
+    "tgt-node" : "person_23580",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner-1"
+    }
+  }, {
+    "src-node" : "digitalId_23584",
+    "tgt-node" : "resource_23594",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "person_23580",
+    "tgt-node" : "digitalId_23584",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner"
+    }
+  }, {
+    "src-node" : "person_23580",
+    "tgt-node" : "event_23599",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23580",
+    "tgt-node" : "organization_23602",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember"
+    }
+  }, {
+    "src-node" : "person_23577",
+    "tgt-node" : "resource_23586",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "person_23577",
+    "tgt-node" : "event_23600",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23577",
+    "tgt-node" : "organization_23602",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember"
+    }
+  }, {
+    "src-node" : "resource_23592",
+    "tgt-node" : "digitalId_23585",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "resource_23592",
+    "tgt-node" : "digitalId_23583",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "event_23601",
+    "tgt-node" : "person_23582",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23601",
+    "tgt-node" : "person_23580",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesPerson"
+    }
+  }, {
+    "src-node" : "event_23601",
+    "tgt-node" : "person_23578",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesPerson"
+    }
+  }, {
+    "src-node" : "event_23601",
+    "tgt-node" : "group_23605",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesGroup"
+    }
+  }, {
+    "src-node" : "event_23601",
+    "tgt-node" : "object_23606",
+    "meta" : {
+      "weight" : 0.0,
+      "name" : "involvesObject"
+    }
+  }, {
+    "src-node" : "event_23600",
+    "tgt-node" : "person_23577",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23600",
+    "tgt-node" : "person_23579",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23600",
+    "tgt-node" : "digitalId_23584",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesDigitalIdentity"
+    }
+  }, {
+    "src-node" : "resource_23593",
+    "tgt-node" : "person_23579",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "event_23596",
+    "tgt-node" : "person_23581",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23596",
+    "tgt-node" : "person_23582",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23596",
+    "tgt-node" : "group_23603",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesGroup"
+    }
+  }, {
+    "src-node" : "digitalId_23583",
+    "tgt-node" : "resource_23592",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "event_23597",
+    "tgt-node" : "person_23581",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "resource_23594",
+    "tgt-node" : "digitalId_23584",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "person_23582",
+    "tgt-node" : "digitalId_23585",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner"
+    }
+  }, {
+    "src-node" : "person_23582",
+    "tgt-node" : "event_23601",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23582",
+    "tgt-node" : "event_23596",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23582",
+    "tgt-node" : "event_23599",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "organization_23602",
+    "tgt-node" : "person_23579",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember-1"
+    }
+  }, {
+    "src-node" : "organization_23602",
+    "tgt-node" : "person_23580",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember-1"
+    }
+  }, {
+    "src-node" : "organization_23602",
+    "tgt-node" : "person_23578",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember-1"
+    }
+  }, {
+    "src-node" : "organization_23602",
+    "tgt-node" : "person_23577",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember-1"
+    }
+  }, {
+    "src-node" : "person_23579",
+    "tgt-node" : "resource_23593",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "person_23579",
+    "tgt-node" : "event_23600",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23579",
+    "tgt-node" : "organization_23602",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember"
+    }
+  }, {
+    "src-node" : "person_23578",
+    "tgt-node" : "digitalId_23585",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isOwner"
+    }
+  }, {
+    "src-node" : "person_23578",
+    "tgt-node" : "event_23598",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23578",
+    "tgt-node" : "organization_23602",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isMember"
+    }
+  }, {
+    "src-node" : "event_23599",
+    "tgt-node" : "person_23580",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23599",
+    "tgt-node" : "person_23582",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23599",
+    "tgt-node" : "person_23578",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesPerson"
+    }
+  }, {
+    "src-node" : "event_23599",
+    "tgt-node" : "person_23581",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesPerson"
+    }
+  }, {
+    "src-node" : "event_23599",
+    "tgt-node" : "digitalId_23584",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesDigitalIdentity"
+    }
+  }, {
+    "src-node" : "resource_23586",
+    "tgt-node" : "person_23577",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "resource_23589",
+    "tgt-node" : "person_23581",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isAuthor-1"
+    }
+  }, {
+    "src-node" : "person_23581",
+    "tgt-node" : "resource_23589",
+    "meta" : {
+      "weight" : 0.9,
+      "name" : "isAuthor"
+    }
+  }, {
+    "src-node" : "person_23581",
+    "tgt-node" : "event_23596",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23581",
+    "tgt-node" : "event_23597",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "person_23581",
+    "tgt-node" : "event_23598",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo"
+    }
+  }, {
+    "src-node" : "event_23598",
+    "tgt-node" : "person_23578",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23598",
+    "tgt-node" : "person_23581",
+    "meta" : {
+      "weight" : 1.0,
+      "name" : "isRelatedTo-1"
+    }
+  }, {
+    "src-node" : "event_23598",
+    "tgt-node" : "group_23603",
+    "meta" : {
+      "weight" : 0.1,
+      "name" : "involvesGroup"
+    }
+  }, {
+    "src-node" : "event_23598",
+    "tgt-node" : "object_23607",
+    "meta" : {
+      "weight" : 0.0,
+      "name" : "involvesObject"
+    }
+  }, {
+    "src-node" : "event_23598",
+    "tgt-node" : "object_23606",
+    "meta" : {
+      "weight" : 0.0,
+      "name" : "involvesObject"
+    }
+  } ]
+}

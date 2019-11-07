@@ -1,0 +1,16 @@
+{
+    "edges": [
+        { "src-node": "person_01",
+          "tgt-node": "article_01",
+          "meta": {
+              "weight": 0.5,
+              "name": "authorOf"
+          }},
+        { "src-node": "domain_01",
+          "tgt-node": "article_01",
+          "meta": {
+              "weight": 0.5,
+              "name": "pubisherOf"
+          }}
+    ]
+}
